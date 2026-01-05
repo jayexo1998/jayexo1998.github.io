@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+RO:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.parent {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+align-items: center;
+width: 450px;
+height: 350px;
+}
+
+.div1 { grid-area: 1 / 2 / 2 / 5;
+background: #F4F4F4;
+height: 70px;
+width: 450px;
+border-radius: 15px 15px 0px 0px;
+border: 1px solid #D9EAD3;}
+
+.div2 { grid-area: 2 / 2 / 5 / 5; 
+background: #F3F8F1;
+width: 450px;
+height: 250px;
+margin-top: -9.5px;
+border-radius: 0px 0px 15px 15px;
+border: 1px solid #D9EAD3;
+}
+
+.div3 { grid-area: 2 / 2 / 5 / 5; 
+background: white;
+width: 420px;
+height: 220px;
+border-radius: 15px 15px 15px 15px;
+border: 1px solid #D9EAD3;
+margin-left: 15px;
+margin-top: -5px;
+  overflow: auto;
+}
+
+.div4 { grid-area: 1 / 2 / 2 / 5;
+background: ;
+height: 35px;
+width: 85px;
+margin-left: 25px;
+    font-family: "Playwrite RO", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.div6 { grid-area: 1 / 3 / 2 / 5;
+background:  ;
+height: 35px;
+width: 245px;
+margin-left: -35px;
+    font-family: "Playwrite RO", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align:left;
+}
+
+.div7 { grid-area: 1 / 5 / 2 / 4;
+  height: 50px;
+  width: 70px;
+  text-align:left;
+  margin-left: 66px;
+  margin-top: -9px;
+  border-radius: 15px 15px 15px 15px;
+  border: 3px solid #D9EAD3;
+}
+
+.div7 img { grid-area: 1 / 5 / 2 / 4;
+height: 50px;
+width: 70px;
+    font-family: "Playwrite RO", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align:left;
+  border-radius: 15px 15px 15px 15px;
+  object-fit: cover;
+}
+
+.div5 { grid-area: 2 / 2 / 5 / 5; 
+background:  ;
+width: 380px;
+height: 190px;
+margin-left: 45px;
+  margin-top: -10px;
+  overflow: auto;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 13px;
+  text-align: left;
+  color: #000000;
+    line-height: 1.4;
+    letter-spacing: .3px;
+
+}
+
+.div5 b{
+  font-size: 15px;
+  background: #D9EAD3;
+   font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.div5 i{
+  font-family: "Playwrite RO", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-transform: lowercase;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
